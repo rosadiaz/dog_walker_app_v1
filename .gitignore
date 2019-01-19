@@ -14,3 +14,26 @@
 !/tmp/.keep
 
 .byebug_history
+
+
+# dependencies
+app/client/node_modules
+app/client/.pnp
+app/client/.pnp.js
+
+# testing
+app/client/coverage
+
+# production
+app/client//build
+
+# misc
+app/client/.DS_Store
+app/client/.env.local
+app/client/.env.development.local
+app/client/.env.test.local
+app/client/.env.production.local
+
+app/client/npm-debug.log*
+app/client/yarn-debug.log*
+app/client/yarn-error.log*
