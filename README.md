@@ -1,6 +1,7 @@
 # dog_walker_app_v1
- Orsi reporting for duty
 
-Max modified this read me.
-
-Chris says "YEAHHHHHHH!"
+## Contributors
+* Jef Curtis <jefcurtis@gmail.com>
+* Orsi reporting for duty
+* Max modified this read me.
+* Chris says "YEAHHHHHHH!"
