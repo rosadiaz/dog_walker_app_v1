@@ -2,3 +2,5 @@
 
 ## Contributors
 * Jef Curtis <jefcurtis@gmail.com>
+* Orsi reporting for duty
+* Max modified this read me.
