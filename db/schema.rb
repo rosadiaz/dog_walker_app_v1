@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190119223659) do
+ActiveRecord::Schema.define(version: 20190119223923) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,9 @@ ActiveRecord::Schema.define(version: 20190119223659) do
     t.string "status"
   end
 
+  create_table "manager_tables", force: :cascade do |t|
+  end
+
   create_table "users_tables", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
@@ -34,6 +37,9 @@ ActiveRecord::Schema.define(version: 20190119223659) do
     t.string "role"
     t.string "phone_number"
     t.integer "userable_id"
+  end
+
+  create_table "walker_tables", force: :cascade do |t|
   end
 
 end
