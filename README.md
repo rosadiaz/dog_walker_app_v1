@@ -10,8 +10,10 @@
 # README
 
 ### Rails server
+* Navigate to the root directory `./app`
 * Run the server using `rails s -p 3001`
 
 ### React client server
-* Navigate to `./client`
+* In a separate terminal window
+* Navigate to `./app/client`
 * Run the client using `yarn start`
