@@ -5,6 +5,7 @@ class CreateDogTable < ActiveRecord::Migration[5.1]
       t.string :breed
       t.integer :age
       t.string :color
+      t.timestamps
     end
   end
 end
