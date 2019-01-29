@@ -8,7 +8,6 @@ class CreateUsersTable < ActiveRecord::Migration[5.1]
       t.string :role
       t.string :phone_number
       t.integer :userable_id
-      t.timestamps
     end
   end
 end
