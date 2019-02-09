@@ -1,10 +1,10 @@
 FactoryBot.define do
   factory :user do
-    email { "MyString" }
-    password { "MyString" }
-    first_name { "MyString" }
-    last_name { "MyString" }
-    role { "MyString" }
-    phone_number { "MyString" }
+    email { "test@test.com" }
+    password { "123456" }
+    first_name { "Chris" }
+    last_name { "Chu" }
+    userable_type { "Admin" }
+    phone_number { "1234567890" }
   end
 end
